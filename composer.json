@@ -1,0 +1,23 @@
+{
+    "name": "do3meli/monolog-cassandra",
+    "description": "monolog handler for cassandra database",
+    "keywords": ["log", "logging", "monolog", "cassandra", "database"],
+    "type": "library",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "do3meli",
+            "email": "dominic.schlegel@gmail.com"
+        }
+    ],
+    "require": {
+        "datastax/php-driver": "dev-master",
+        "monolog/monolog": ">1.4.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "CassandraHandler\\": "src/CassandraHandler"
+        }
+    }
+}
