@@ -11,10 +11,9 @@
         }
     ],
     "require": {
-        "datastax/php-driver": "dev-master",
+        "datastax/php-driver": "^1.2",
         "monolog/monolog": ">1.4.0"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "CassandraHandler\\": "src/CassandraHandler"
